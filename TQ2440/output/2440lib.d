@@ -1,0 +1,11 @@
+.\output\2440lib.o: S3C2440\src\2440lib.c
+.\output\2440lib.o: .\S3C2440\inc\def.h
+.\output\2440lib.o: .\S3C2440\inc\option.h
+.\output\2440lib.o: .\S3C2440\inc\2440addr.h
+.\output\2440lib.o: .\S3C2440\inc\2440lib.h
+.\output\2440lib.o: .\S3C2440\inc\2440slib.h
+.\output\2440lib.o: d:\Keil\ARM\RV31\INC\stdarg.h
+.\output\2440lib.o: d:\Keil\ARM\RV31\INC\string.h
+.\output\2440lib.o: d:\Keil\ARM\RV31\INC\stdlib.h
+.\output\2440lib.o: d:\Keil\ARM\RV31\INC\stdio.h
+.\output\2440lib.o: d:\Keil\ARM\RV31\INC\ctype.h

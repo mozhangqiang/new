@@ -1,0 +1,4 @@
+--cpu ARM920T ".\output\main.o" ".\output\timer.o" ".\output\2440init.o" ".\output\2440lib.o" ".\output\2440slib.o" ".\output\mmu.o" ".\output\target.o" ".\output\lcd_tft.o" ".\output\graph.o" ".\output\eint.o" ".\output\io_api.o" ".\output\radio_api.o" ".\output\fm_i2c.o" --strict --scatter ".\common\RuninRAM.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\TIMER_TEST.map" -o ".\output\TIMER_TEST.axf"

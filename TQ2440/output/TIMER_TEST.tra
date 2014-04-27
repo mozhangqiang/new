@@ -1,0 +1,31 @@
+*** Creating Trace Output File '.\output\TIMER_TEST.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\timer.o"'
+### List of Objects: adding '".\output\2440init.o"'
+### List of Objects: adding '".\output\2440lib.o"'
+### List of Objects: adding '".\output\2440slib.o"'
+### List of Objects: adding '".\output\mmu.o"'
+### List of Objects: adding '".\output\target.o"'
+### List of Objects: adding '".\output\lcd_tft.o"'
+### List of Objects: adding '".\output\graph.o"'
+### List of Objects: adding '".\output\eint.o"'
+### List of Objects: adding '".\output\io_api.o"'
+### List of Objects: adding '".\output\radio_api.o"'
+### List of Objects: adding '".\output\fm_i2c.o"'
+### ADS-LD Command completed:
+--cpu ARM920T ".\output\main.o" ".\output\timer.o" ".\output\2440init.o" ".\output\2440lib.o" ".\output\2440slib.o" ".\output\mmu.o" ".\output\target.o" ".\output\lcd_tft.o" ".\output\graph.o" ".\output\eint.o" ".\output\io_api.o" ".\output\radio_api.o" ".\output\fm_i2c.o" --strict --scatter ".\common\RuninRAM.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\TIMER_TEST.map" -o ".\output\TIMER_TEST.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\TIMER_TEST.axf'
+### ADS-LD Command File: '.\output\TIMER_TEST.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\TIMER_TEST.lnp', Handle=0x0000031C
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\TIMER_TEST.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

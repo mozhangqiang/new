@@ -1,0 +1,1157 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\ajdtaqk\×ÀÃæ\TIMER_TEST\TIMER_TEST.uvproj
+Project File Date:  04/12/2011
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling Timer.c...
+S3C2440\src\Timer.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Timer.c:   #include "config.h"
+S3C2440\src\Timer.c:                      ^
+S3C2440\src\Timer.c: S3C2440\src\Timer.c: 0 warnings, 1 error
+assembling 2440init.s...
+S3C2440\src\2440init.s(8): error: A1023E: File "option.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     8 00000000  GET option.inc
+S3C2440\src\2440init.s(9): error: A1023E: File "memcfg.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     9 00000000  GET memcfg.inc
+S3C2440\src\2440init.s(10): error: A1023E: File "2440addr.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:    10 00000000  GET 2440addr.inc
+S3C2440\src\2440init.s(93): error: A1312E: Assertion failed
+S3C2440\src\2440init.s:    93 00000000  ASSERT :DEF:ENDIAN_CHANGE
+S3C2440\src\2440init.s(94): error: A1516E: Bad symbol 'ENDIAN_CHANGE', not defined or external
+S3C2440\src\2440init.s:    94 00000000  [ ENDIAN_CHANGE
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(122): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   122 00000024  [ ENTRY_BUS_WIDTH=32
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(127): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   127 00000024  [ ENTRY_BUS_WIDTH=16
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(132): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   132 00000024  [ ENTRY_BUS_WIDTH=8
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(198): error: A1516E: Bad symbol 'PLL_ON_START', not defined or external
+S3C2440\src\2440init.s:   198 00000140     [ PLL_ON_START
+S3C2440\src\2440init.s:                      ^
+S3C2440\src\2440init.s(339): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+S3C2440\src\2440init.s:   339 00000218  ldr r0, =(7<<12)|(7<<8)|(7<<4)
+S3C2440\src\2440init.s(849): error: A1516E: Bad symbol '_ISR_STARTADDRESS', not defined or external
+S3C2440\src\2440init.s:   849 00000000  ^   _ISR_STARTADDRESS  ; _ISR_STARTADDRESS=0x33FF_FF00
+S3C2440\src\2440init.s:                     ^
+S3C2440\src\2440init.s: 10 Errors, 1 Warning
+compiling 2440lib.c...
+S3C2440\src\2440lib.c(7): error:  #5: cannot open source input file "def.h": No such file or directory
+S3C2440\src\2440lib.c:   #include "def.h"
+S3C2440\src\2440lib.c:                   ^
+S3C2440\src\2440lib.c: S3C2440\src\2440lib.c: 0 warnings, 1 error
+assembling 2440slib.s...
+S3C2440\src\2440slib.s(35): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000010        mov pc,lr
+S3C2440\src\2440slib.s(41): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 0000001c        mov pc,lr
+S3C2440\src\2440slib.s(54): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000030        mov pc,lr
+S3C2440\src\2440slib.s(61): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000038        mov pc,lr
+S3C2440\src\2440slib.s(71): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000048        mov pc,lr
+S3C2440\src\2440slib.s(75): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000050        mov pc,lr
+S3C2440\src\2440slib.s(79): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000058        mov pc,lr
+S3C2440\src\2440slib.s(98): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000068        mov pc,lr
+S3C2440\src\2440slib.s(106): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000078        mov pc,lr
+S3C2440\src\2440slib.s(114): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000088        mov pc,lr
+S3C2440\src\2440slib.s(122): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000098        mov pc,lr
+S3C2440\src\2440slib.s(130): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000a8        mov pc,lr
+S3C2440\src\2440slib.s(138): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000b8        mov pc,lr
+S3C2440\src\2440slib.s(146): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000c8        mov pc,lr
+S3C2440\src\2440slib.s(154): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000d8        mov pc,lr
+S3C2440\src\2440slib.s(163): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000e8        mov pc,lr
+S3C2440\src\2440slib.s(172): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000f8        mov pc,lr
+S3C2440\src\2440slib.s(182): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000100        mov pc,lr
+S3C2440\src\2440slib.s(192): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000108        mov pc,lr
+S3C2440\src\2440slib.s(201): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000110        mov pc,lr
+S3C2440\src\2440slib.s(207): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000118        mov pc,lr
+S3C2440\src\2440slib.s(214): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000120        mov pc,lr
+S3C2440\src\2440slib.s(221): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000128        mov pc,lr
+S3C2440\src\2440slib.s(227): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000130        mov pc,lr
+S3C2440\src\2440slib.s(234): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000138        mov pc,lr
+S3C2440\src\2440slib.s(241): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000140        mov pc,lr
+S3C2440\src\2440slib.s(248): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000148        mov pc,lr
+S3C2440\src\2440slib.s(255): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000150        mov pc,lr
+S3C2440\src\2440slib.s(262): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000158        mov pc,lr
+S3C2440\src\2440slib.s(268): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000160        mov pc,lr
+S3C2440\src\2440slib.s(277): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000168        mov pc,lr
+S3C2440\src\2440slib.s(283): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000170        mov pc,lr
+S3C2440\src\2440slib.s(290): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000178        mov pc,lr
+S3C2440\src\2440slib.s(296): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000180        mov pc,lr
+S3C2440\src\2440slib.s(303): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000188        mov pc,lr
+S3C2440\src\2440slib.s(313): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000190        mov pc,lr
+S3C2440\src\2440slib.s(320): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000198        mov pc,lr
+S3C2440\src\2440slib.s(330): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001a0        mov pc,lr
+S3C2440\src\2440slib.s(337): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001a8        mov pc,lr
+S3C2440\src\2440slib.s(347): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001b0        mov pc,lr
+S3C2440\src\2440slib.s: 0 Errors, 40 Warnings
+compiling mmu.c...
+S3C2440\src\mmu.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\mmu.c:   #include "config.h"
+S3C2440\src\mmu.c:                      ^
+S3C2440\src\mmu.c: S3C2440\src\mmu.c: 0 warnings, 1 error
+compiling Target.c...
+S3C2440\src\Target.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Target.c:   #include "config.h"
+S3C2440\src\Target.c:                      ^
+S3C2440\src\Target.c: S3C2440\src\Target.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(3): error:  #5: cannot open source input file "config.h": No such file or directory
+main.c:   #include "config.h"
+main.c:                      ^
+main.c: main.c: 0 warnings, 1 error
+compiling Timer.c...
+S3C2440\src\Timer.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Timer.c:   #include "config.h"
+S3C2440\src\Timer.c:                      ^
+S3C2440\src\Timer.c: S3C2440\src\Timer.c: 0 warnings, 1 error
+assembling 2440init.s...
+S3C2440\src\2440init.s(8): error: A1023E: File "option.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     8 00000000  GET option.inc
+S3C2440\src\2440init.s(9): error: A1023E: File "memcfg.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     9 00000000  GET memcfg.inc
+S3C2440\src\2440init.s(10): error: A1023E: File "2440addr.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:    10 00000000  GET 2440addr.inc
+S3C2440\src\2440init.s(93): error: A1312E: Assertion failed
+S3C2440\src\2440init.s:    93 00000000  ASSERT :DEF:ENDIAN_CHANGE
+S3C2440\src\2440init.s(94): error: A1516E: Bad symbol 'ENDIAN_CHANGE', not defined or external
+S3C2440\src\2440init.s:    94 00000000  [ ENDIAN_CHANGE
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(122): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   122 00000024  [ ENTRY_BUS_WIDTH=32
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(127): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   127 00000024  [ ENTRY_BUS_WIDTH=16
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(132): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   132 00000024  [ ENTRY_BUS_WIDTH=8
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(198): error: A1516E: Bad symbol 'PLL_ON_START', not defined or external
+S3C2440\src\2440init.s:   198 00000140     [ PLL_ON_START
+S3C2440\src\2440init.s:                      ^
+S3C2440\src\2440init.s(339): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+S3C2440\src\2440init.s:   339 00000218  ldr r0, =(7<<12)|(7<<8)|(7<<4)
+S3C2440\src\2440init.s(849): error: A1516E: Bad symbol '_ISR_STARTADDRESS', not defined or external
+S3C2440\src\2440init.s:   849 00000000  ^   _ISR_STARTADDRESS  ; _ISR_STARTADDRESS=0x33FF_FF00
+S3C2440\src\2440init.s:                     ^
+S3C2440\src\2440init.s: 10 Errors, 1 Warning
+compiling 2440lib.c...
+S3C2440\src\2440lib.c(7): error:  #5: cannot open source input file "def.h": No such file or directory
+S3C2440\src\2440lib.c:   #include "def.h"
+S3C2440\src\2440lib.c:                   ^
+S3C2440\src\2440lib.c: S3C2440\src\2440lib.c: 0 warnings, 1 error
+assembling 2440slib.s...
+S3C2440\src\2440slib.s(35): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000010        mov pc,lr
+S3C2440\src\2440slib.s(41): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 0000001c        mov pc,lr
+S3C2440\src\2440slib.s(54): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000030        mov pc,lr
+S3C2440\src\2440slib.s(61): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000038        mov pc,lr
+S3C2440\src\2440slib.s(71): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000048        mov pc,lr
+S3C2440\src\2440slib.s(75): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000050        mov pc,lr
+S3C2440\src\2440slib.s(79): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000058        mov pc,lr
+S3C2440\src\2440slib.s(98): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000068        mov pc,lr
+S3C2440\src\2440slib.s(106): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000078        mov pc,lr
+S3C2440\src\2440slib.s(114): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000088        mov pc,lr
+S3C2440\src\2440slib.s(122): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000098        mov pc,lr
+S3C2440\src\2440slib.s(130): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000a8        mov pc,lr
+S3C2440\src\2440slib.s(138): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000b8        mov pc,lr
+S3C2440\src\2440slib.s(146): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000c8        mov pc,lr
+S3C2440\src\2440slib.s(154): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000d8        mov pc,lr
+S3C2440\src\2440slib.s(163): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000e8        mov pc,lr
+S3C2440\src\2440slib.s(172): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000f8        mov pc,lr
+S3C2440\src\2440slib.s(182): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000100        mov pc,lr
+S3C2440\src\2440slib.s(192): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000108        mov pc,lr
+S3C2440\src\2440slib.s(201): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000110        mov pc,lr
+S3C2440\src\2440slib.s(207): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000118        mov pc,lr
+S3C2440\src\2440slib.s(214): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000120        mov pc,lr
+S3C2440\src\2440slib.s(221): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000128        mov pc,lr
+S3C2440\src\2440slib.s(227): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000130        mov pc,lr
+S3C2440\src\2440slib.s(234): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000138        mov pc,lr
+S3C2440\src\2440slib.s(241): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000140        mov pc,lr
+S3C2440\src\2440slib.s(248): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000148        mov pc,lr
+S3C2440\src\2440slib.s(255): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000150        mov pc,lr
+S3C2440\src\2440slib.s(262): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000158        mov pc,lr
+S3C2440\src\2440slib.s(268): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000160        mov pc,lr
+S3C2440\src\2440slib.s(277): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000168        mov pc,lr
+S3C2440\src\2440slib.s(283): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000170        mov pc,lr
+S3C2440\src\2440slib.s(290): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000178        mov pc,lr
+S3C2440\src\2440slib.s(296): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000180        mov pc,lr
+S3C2440\src\2440slib.s(303): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000188        mov pc,lr
+S3C2440\src\2440slib.s(313): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000190        mov pc,lr
+S3C2440\src\2440slib.s(320): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000198        mov pc,lr
+S3C2440\src\2440slib.s(330): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001a0        mov pc,lr
+S3C2440\src\2440slib.s(337): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001a8        mov pc,lr
+S3C2440\src\2440slib.s(347): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001b0        mov pc,lr
+S3C2440\src\2440slib.s: 0 Errors, 40 Warnings
+compiling mmu.c...
+S3C2440\src\mmu.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\mmu.c:   #include "config.h"
+S3C2440\src\mmu.c:                      ^
+S3C2440\src\mmu.c: S3C2440\src\mmu.c: 0 warnings, 1 error
+compiling Target.c...
+S3C2440\src\Target.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Target.c:   #include "config.h"
+S3C2440\src\Target.c:                      ^
+S3C2440\src\Target.c: S3C2440\src\Target.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(3): error:  #5: cannot open source input file "config.h": No such file or directory
+main.c:   #include "config.h"
+main.c:                      ^
+main.c: main.c: 0 warnings, 1 error
+compiling Timer.c...
+S3C2440\src\Timer.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Timer.c:   #include "config.h"
+S3C2440\src\Timer.c:                      ^
+S3C2440\src\Timer.c: S3C2440\src\Timer.c: 0 warnings, 1 error
+assembling 2440init.s...
+S3C2440\src\2440init.s(8): error: A1023E: File "option.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     8 00000000  GET option.inc
+S3C2440\src\2440init.s(9): error: A1023E: File "memcfg.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     9 00000000  GET memcfg.inc
+S3C2440\src\2440init.s(10): error: A1023E: File "2440addr.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:    10 00000000  GET 2440addr.inc
+S3C2440\src\2440init.s(93): error: A1312E: Assertion failed
+S3C2440\src\2440init.s:    93 00000000  ASSERT :DEF:ENDIAN_CHANGE
+S3C2440\src\2440init.s(94): error: A1516E: Bad symbol 'ENDIAN_CHANGE', not defined or external
+S3C2440\src\2440init.s:    94 00000000  [ ENDIAN_CHANGE
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(122): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   122 00000024  [ ENTRY_BUS_WIDTH=32
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(127): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   127 00000024  [ ENTRY_BUS_WIDTH=16
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(132): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   132 00000024  [ ENTRY_BUS_WIDTH=8
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(198): error: A1516E: Bad symbol 'PLL_ON_START', not defined or external
+S3C2440\src\2440init.s:   198 00000140     [ PLL_ON_START
+S3C2440\src\2440init.s:                      ^
+S3C2440\src\2440init.s(339): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+S3C2440\src\2440init.s:   339 00000218  ldr r0, =(7<<12)|(7<<8)|(7<<4)
+S3C2440\src\2440init.s(849): error: A1516E: Bad symbol '_ISR_STARTADDRESS', not defined or external
+S3C2440\src\2440init.s:   849 00000000  ^   _ISR_STARTADDRESS  ; _ISR_STARTADDRESS=0x33FF_FF00
+S3C2440\src\2440init.s:                     ^
+S3C2440\src\2440init.s: 10 Errors, 1 Warning
+compiling 2440lib.c...
+S3C2440\src\2440lib.c(7): error:  #5: cannot open source input file "def.h": No such file or directory
+S3C2440\src\2440lib.c:   #include "def.h"
+S3C2440\src\2440lib.c:                   ^
+S3C2440\src\2440lib.c: S3C2440\src\2440lib.c: 0 warnings, 1 error
+assembling 2440slib.s...
+S3C2440\src\2440slib.s(35): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000010        mov pc,lr
+S3C2440\src\2440slib.s(41): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 0000001c        mov pc,lr
+S3C2440\src\2440slib.s(54): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000030        mov pc,lr
+S3C2440\src\2440slib.s(61): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000038        mov pc,lr
+S3C2440\src\2440slib.s(71): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000048        mov pc,lr
+S3C2440\src\2440slib.s(75): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000050        mov pc,lr
+S3C2440\src\2440slib.s(79): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000058        mov pc,lr
+S3C2440\src\2440slib.s(98): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000068        mov pc,lr
+S3C2440\src\2440slib.s(106): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000078        mov pc,lr
+S3C2440\src\2440slib.s(114): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000088        mov pc,lr
+S3C2440\src\2440slib.s(122): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000098        mov pc,lr
+S3C2440\src\2440slib.s(130): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000a8        mov pc,lr
+S3C2440\src\2440slib.s(138): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000b8        mov pc,lr
+S3C2440\src\2440slib.s(146): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000c8        mov pc,lr
+S3C2440\src\2440slib.s(154): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000d8        mov pc,lr
+S3C2440\src\2440slib.s(163): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000e8        mov pc,lr
+S3C2440\src\2440slib.s(172): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000f8        mov pc,lr
+S3C2440\src\2440slib.s(182): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000100        mov pc,lr
+S3C2440\src\2440slib.s(192): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000108        mov pc,lr
+S3C2440\src\2440slib.s(201): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000110        mov pc,lr
+S3C2440\src\2440slib.s(207): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000118        mov pc,lr
+S3C2440\src\2440slib.s(214): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000120        mov pc,lr
+S3C2440\src\2440slib.s(221): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000128        mov pc,lr
+S3C2440\src\2440slib.s(227): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000130        mov pc,lr
+S3C2440\src\2440slib.s(234): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000138        mov pc,lr
+S3C2440\src\2440slib.s(241): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000140        mov pc,lr
+S3C2440\src\2440slib.s(248): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000148        mov pc,lr
+S3C2440\src\2440slib.s(255): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000150        mov pc,lr
+S3C2440\src\2440slib.s(262): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000158        mov pc,lr
+S3C2440\src\2440slib.s(268): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000160        mov pc,lr
+S3C2440\src\2440slib.s(277): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000168        mov pc,lr
+S3C2440\src\2440slib.s(283): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000170        mov pc,lr
+S3C2440\src\2440slib.s(290): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000178        mov pc,lr
+S3C2440\src\2440slib.s(296): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000180        mov pc,lr
+S3C2440\src\2440slib.s(303): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000188        mov pc,lr
+S3C2440\src\2440slib.s(313): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000190        mov pc,lr
+S3C2440\src\2440slib.s(320): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000198        mov pc,lr
+S3C2440\src\2440slib.s(330): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001a0        mov pc,lr
+S3C2440\src\2440slib.s(337): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001a8        mov pc,lr
+S3C2440\src\2440slib.s(347): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001b0        mov pc,lr
+S3C2440\src\2440slib.s: 0 Errors, 40 Warnings
+compiling mmu.c...
+S3C2440\src\mmu.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\mmu.c:   #include "config.h"
+S3C2440\src\mmu.c:                      ^
+S3C2440\src\mmu.c: S3C2440\src\mmu.c: 0 warnings, 1 error
+compiling Target.c...
+S3C2440\src\Target.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Target.c:   #include "config.h"
+S3C2440\src\Target.c:                      ^
+S3C2440\src\Target.c: S3C2440\src\Target.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(3): error:  #5: cannot open source input file "config.h": No such file or directory
+main.c:   #include "config.h"
+main.c:                      ^
+main.c: main.c: 0 warnings, 1 error
+compiling Timer.c...
+S3C2440\src\Timer.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Timer.c:   #include "config.h"
+S3C2440\src\Timer.c:                      ^
+S3C2440\src\Timer.c: S3C2440\src\Timer.c: 0 warnings, 1 error
+assembling 2440init.s...
+S3C2440\src\2440init.s(8): error: A1023E: File "option.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     8 00000000  GET option.inc
+S3C2440\src\2440init.s(9): error: A1023E: File "memcfg.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     9 00000000  GET memcfg.inc
+S3C2440\src\2440init.s(10): error: A1023E: File "2440addr.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:    10 00000000  GET 2440addr.inc
+S3C2440\src\2440init.s(93): error: A1312E: Assertion failed
+S3C2440\src\2440init.s:    93 00000000  ASSERT :DEF:ENDIAN_CHANGE
+S3C2440\src\2440init.s(94): error: A1516E: Bad symbol 'ENDIAN_CHANGE', not defined or external
+S3C2440\src\2440init.s:    94 00000000  [ ENDIAN_CHANGE
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(122): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   122 00000024  [ ENTRY_BUS_WIDTH=32
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(127): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   127 00000024  [ ENTRY_BUS_WIDTH=16
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(132): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   132 00000024  [ ENTRY_BUS_WIDTH=8
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(198): error: A1516E: Bad symbol 'PLL_ON_START', not defined or external
+S3C2440\src\2440init.s:   198 00000140     [ PLL_ON_START
+S3C2440\src\2440init.s:                      ^
+S3C2440\src\2440init.s(339): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+S3C2440\src\2440init.s:   339 00000218  ldr r0, =(7<<12)|(7<<8)|(7<<4)
+S3C2440\src\2440init.s(849): error: A1516E: Bad symbol '_ISR_STARTADDRESS', not defined or external
+S3C2440\src\2440init.s:   849 00000000  ^   _ISR_STARTADDRESS  ; _ISR_STARTADDRESS=0x33FF_FF00
+S3C2440\src\2440init.s:                     ^
+S3C2440\src\2440init.s: 10 Errors, 1 Warning
+compiling 2440lib.c...
+S3C2440\src\2440lib.c(7): error:  #5: cannot open source input file "def.h": No such file or directory
+S3C2440\src\2440lib.c:   #include "def.h"
+S3C2440\src\2440lib.c:                   ^
+S3C2440\src\2440lib.c: S3C2440\src\2440lib.c: 0 warnings, 1 error
+assembling 2440slib.s...
+S3C2440\src\2440slib.s(35): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000010        mov pc,lr
+S3C2440\src\2440slib.s(41): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 0000001c        mov pc,lr
+S3C2440\src\2440slib.s(54): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000030        mov pc,lr
+S3C2440\src\2440slib.s(61): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000038        mov pc,lr
+S3C2440\src\2440slib.s(71): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000048        mov pc,lr
+S3C2440\src\2440slib.s(75): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000050        mov pc,lr
+S3C2440\src\2440slib.s(79): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000058        mov pc,lr
+S3C2440\src\2440slib.s(98): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000068        mov pc,lr
+S3C2440\src\2440slib.s(106): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000078        mov pc,lr
+S3C2440\src\2440slib.s(114): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000088        mov pc,lr
+S3C2440\src\2440slib.s(122): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000098        mov pc,lr
+S3C2440\src\2440slib.s(130): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000a8        mov pc,lr
+S3C2440\src\2440slib.s(138): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000b8        mov pc,lr
+S3C2440\src\2440slib.s(146): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000c8        mov pc,lr
+S3C2440\src\2440slib.s(154): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000d8        mov pc,lr
+S3C2440\src\2440slib.s(163): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000e8        mov pc,lr
+S3C2440\src\2440slib.s(172): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000f8        mov pc,lr
+S3C2440\src\2440slib.s(182): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000100        mov pc,lr
+S3C2440\src\2440slib.s(192): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000108        mov pc,lr
+S3C2440\src\2440slib.s(201): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000110        mov pc,lr
+S3C2440\src\2440slib.s(207): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000118        mov pc,lr
+S3C2440\src\2440slib.s(214): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000120        mov pc,lr
+S3C2440\src\2440slib.s(221): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000128        mov pc,lr
+S3C2440\src\2440slib.s(227): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000130        mov pc,lr
+S3C2440\src\2440slib.s(234): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000138        mov pc,lr
+S3C2440\src\2440slib.s(241): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000140        mov pc,lr
+S3C2440\src\2440slib.s(248): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000148        mov pc,lr
+S3C2440\src\2440slib.s(255): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000150        mov pc,lr
+S3C2440\src\2440slib.s(262): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000158        mov pc,lr
+S3C2440\src\2440slib.s(268): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000160        mov pc,lr
+S3C2440\src\2440slib.s(277): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000168        mov pc,lr
+S3C2440\src\2440slib.s(283): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000170        mov pc,lr
+S3C2440\src\2440slib.s(290): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000178        mov pc,lr
+S3C2440\src\2440slib.s(296): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000180        mov pc,lr
+S3C2440\src\2440slib.s(303): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000188        mov pc,lr
+S3C2440\src\2440slib.s(313): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000190        mov pc,lr
+S3C2440\src\2440slib.s(320): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000198        mov pc,lr
+S3C2440\src\2440slib.s(330): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001a0        mov pc,lr
+S3C2440\src\2440slib.s(337): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001a8        mov pc,lr
+S3C2440\src\2440slib.s(347): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001b0        mov pc,lr
+S3C2440\src\2440slib.s: 0 Errors, 40 Warnings
+compiling mmu.c...
+S3C2440\src\mmu.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\mmu.c:   #include "config.h"
+S3C2440\src\mmu.c:                      ^
+S3C2440\src\mmu.c: S3C2440\src\mmu.c: 0 warnings, 1 error
+compiling Target.c...
+S3C2440\src\Target.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Target.c:   #include "config.h"
+S3C2440\src\Target.c:                      ^
+S3C2440\src\Target.c: S3C2440\src\Target.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(3): error:  #5: cannot open source input file "config.h": No such file or directory
+main.c:   #include "config.h"
+main.c:                      ^
+main.c: main.c: 0 warnings, 1 error
+compiling Timer.c...
+S3C2440\src\Timer.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Timer.c:   #include "config.h"
+S3C2440\src\Timer.c:                      ^
+S3C2440\src\Timer.c: S3C2440\src\Timer.c: 0 warnings, 1 error
+assembling 2440init.s...
+S3C2440\src\2440init.s(8): error: A1023E: File "option.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     8 00000000  GET option.inc
+S3C2440\src\2440init.s(9): error: A1023E: File "memcfg.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     9 00000000  GET memcfg.inc
+S3C2440\src\2440init.s(10): error: A1023E: File "2440addr.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:    10 00000000  GET 2440addr.inc
+S3C2440\src\2440init.s(93): error: A1312E: Assertion failed
+S3C2440\src\2440init.s:    93 00000000  ASSERT :DEF:ENDIAN_CHANGE
+S3C2440\src\2440init.s(94): error: A1516E: Bad symbol 'ENDIAN_CHANGE', not defined or external
+S3C2440\src\2440init.s:    94 00000000  [ ENDIAN_CHANGE
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(122): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   122 00000024  [ ENTRY_BUS_WIDTH=32
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(127): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   127 00000024  [ ENTRY_BUS_WIDTH=16
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(132): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   132 00000024  [ ENTRY_BUS_WIDTH=8
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(198): error: A1516E: Bad symbol 'PLL_ON_START', not defined or external
+S3C2440\src\2440init.s:   198 00000140     [ PLL_ON_START
+S3C2440\src\2440init.s:                      ^
+S3C2440\src\2440init.s(339): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+S3C2440\src\2440init.s:   339 00000218  ldr r0, =(7<<12)|(7<<8)|(7<<4)
+S3C2440\src\2440init.s(849): error: A1516E: Bad symbol '_ISR_STARTADDRESS', not defined or external
+S3C2440\src\2440init.s:   849 00000000  ^   _ISR_STARTADDRESS  ; _ISR_STARTADDRESS=0x33FF_FF00
+S3C2440\src\2440init.s:                     ^
+S3C2440\src\2440init.s: 10 Errors, 1 Warning
+compiling 2440lib.c...
+S3C2440\src\2440lib.c(7): error:  #5: cannot open source input file "def.h": No such file or directory
+S3C2440\src\2440lib.c:   #include "def.h"
+S3C2440\src\2440lib.c:                   ^
+S3C2440\src\2440lib.c: S3C2440\src\2440lib.c: 0 warnings, 1 error
+assembling 2440slib.s...
+S3C2440\src\2440slib.s(35): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000010        mov pc,lr
+S3C2440\src\2440slib.s(41): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 0000001c        mov pc,lr
+S3C2440\src\2440slib.s(54): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000030        mov pc,lr
+S3C2440\src\2440slib.s(61): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000038        mov pc,lr
+S3C2440\src\2440slib.s(71): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000048        mov pc,lr
+S3C2440\src\2440slib.s(75): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000050        mov pc,lr
+S3C2440\src\2440slib.s(79): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000058        mov pc,lr
+S3C2440\src\2440slib.s(98): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000068        mov pc,lr
+S3C2440\src\2440slib.s(106): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000078        mov pc,lr
+S3C2440\src\2440slib.s(114): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000088        mov pc,lr
+S3C2440\src\2440slib.s(122): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000098        mov pc,lr
+S3C2440\src\2440slib.s(130): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000a8        mov pc,lr
+S3C2440\src\2440slib.s(138): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000b8        mov pc,lr
+S3C2440\src\2440slib.s(146): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000c8        mov pc,lr
+S3C2440\src\2440slib.s(154): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000d8        mov pc,lr
+S3C2440\src\2440slib.s(163): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000e8        mov pc,lr
+S3C2440\src\2440slib.s(172): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000000f8        mov pc,lr
+S3C2440\src\2440slib.s(182): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000100        mov pc,lr
+S3C2440\src\2440slib.s(192): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000108        mov pc,lr
+S3C2440\src\2440slib.s(201): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000110        mov pc,lr
+S3C2440\src\2440slib.s(207): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000118        mov pc,lr
+S3C2440\src\2440slib.s(214): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000120        mov pc,lr
+S3C2440\src\2440slib.s(221): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000128        mov pc,lr
+S3C2440\src\2440slib.s(227): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000130        mov pc,lr
+S3C2440\src\2440slib.s(234): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000138        mov pc,lr
+S3C2440\src\2440slib.s(241): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000140        mov pc,lr
+S3C2440\src\2440slib.s(248): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000148        mov pc,lr
+S3C2440\src\2440slib.s(255): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000150        mov pc,lr
+S3C2440\src\2440slib.s(262): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000158        mov pc,lr
+S3C2440\src\2440slib.s(268): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000160        mov pc,lr
+S3C2440\src\2440slib.s(277): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000168        mov pc,lr
+S3C2440\src\2440slib.s(283): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000170        mov pc,lr
+S3C2440\src\2440slib.s(290): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000178        mov pc,lr
+S3C2440\src\2440slib.s(296): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000180        mov pc,lr
+S3C2440\src\2440slib.s(303): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000188        mov pc,lr
+S3C2440\src\2440slib.s(313): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000190        mov pc,lr
+S3C2440\src\2440slib.s(320): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 00000198        mov pc,lr
+S3C2440\src\2440slib.s(330): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001a0        mov pc,lr
+S3C2440\src\2440slib.s(337): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001a8        mov pc,lr
+S3C2440\src\2440slib.s(347): warning: A1608W: MOV pc,<rn> instruction used, but BX <rn> is preferred
+S3C2440\src\2440slib.s:     at line 24 in macro MOV_PC_LR in 'S3C2440\src\2440slib.s'
+S3C2440\src\2440slib.s: 
+S3C2440\src\2440slib.s:    24 000001b0        mov pc,lr
+S3C2440\src\2440slib.s: 0 Errors, 40 Warnings
+compiling mmu.c...
+S3C2440\src\mmu.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\mmu.c:   #include "config.h"
+S3C2440\src\mmu.c:                      ^
+S3C2440\src\mmu.c: S3C2440\src\mmu.c: 0 warnings, 1 error
+compiling Target.c...
+S3C2440\src\Target.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Target.c:   #include "config.h"
+S3C2440\src\Target.c:                      ^
+S3C2440\src\Target.c: S3C2440\src\Target.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(3): error:  #5: cannot open source input file "config.h": No such file or directory
+main.c:   #include "config.h"
+main.c:                      ^
+main.c: main.c: 0 warnings, 1 error
+compiling Timer.c...
+S3C2440\src\Timer.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Timer.c:   #include "config.h"
+S3C2440\src\Timer.c:                      ^
+S3C2440\src\Timer.c: S3C2440\src\Timer.c: 0 warnings, 1 error
+assembling 2440init.s...
+S3C2440\src\2440init.s(8): error: A1023E: File "option.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     8 00000000  GET option.inc
+S3C2440\src\2440init.s(9): error: A1023E: File "memcfg.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:     9 00000000  GET memcfg.inc
+S3C2440\src\2440init.s(10): error: A1023E: File "2440addr.inc" could not be opened: No such file or directory
+S3C2440\src\2440init.s:    10 00000000  GET 2440addr.inc
+S3C2440\src\2440init.s(93): error: A1312E: Assertion failed
+S3C2440\src\2440init.s:    93 00000000  ASSERT :DEF:ENDIAN_CHANGE
+S3C2440\src\2440init.s(94): error: A1516E: Bad symbol 'ENDIAN_CHANGE', not defined or external
+S3C2440\src\2440init.s:    94 00000000  [ ENDIAN_CHANGE
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(122): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   122 00000024  [ ENTRY_BUS_WIDTH=32
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(127): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   127 00000024  [ ENTRY_BUS_WIDTH=16
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(132): error: A1516E: Bad symbol 'ENTRY_BUS_WIDTH', not defined or external
+S3C2440\src\2440init.s:   132 00000024  [ ENTRY_BUS_WIDTH=8
+S3C2440\src\2440init.s:                   ^
+S3C2440\src\2440init.s(198): error: A1516E: Bad symbol 'PLL_ON_START', not defined or external
+S3C2440\src\2440init.s:   198 00000140     [ PLL_ON_START
+S3C2440\src\2440init.s:                      ^
+S3C2440\src\2440init.s(339): warning: A1876W: Use of '|' as a synonym for the :OR: operator is deprecated.
+S3C2440\src\2440init.s:   339 00000218  ldr r0, =(7<<12)|(7<<8)|(7<<4)
+S3C2440\src\2440init.s(849): error: A1516E: Bad symbol '_ISR_STARTADDRESS', not defined or external
+S3C2440\src\2440init.s:   849 00000000  ^   _ISR_STARTADDRESS  ; _ISR_STARTADDRESS=0x33FF_FF00
+S3C2440\src\2440init.s:                     ^
+S3C2440\src\2440init.s: 10 Errors, 1 Warning
+compiling 2440lib.c...
+S3C2440\src\2440lib.c(7): error:  #5: cannot open source input file "def.h": No such file or directory
+S3C2440\src\2440lib.c:   #include "def.h"
+S3C2440\src\2440lib.c:                   ^
+S3C2440\src\2440lib.c: S3C2440\src\2440lib.c: 0 warnings, 1 error
+compiling mmu.c...
+S3C2440\src\mmu.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\mmu.c:   #include "config.h"
+S3C2440\src\mmu.c:                      ^
+S3C2440\src\mmu.c: S3C2440\src\mmu.c: 0 warnings, 1 error
+compiling Target.c...
+S3C2440\src\Target.c(7): error:  #5: cannot open source input file "config.h": No such file or directory
+S3C2440\src\Target.c:   #include "config.h"
+S3C2440\src\Target.c:                      ^
+S3C2440\src\Target.c: S3C2440\src\Target.c: 0 warnings, 1 error
+Target not created

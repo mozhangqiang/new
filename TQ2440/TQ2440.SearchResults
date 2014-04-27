@@ -1,0 +1,30 @@
+---- Radio_Reg_Write Æ¥Åä (29 in 3 ÎÄ¼þ) ----
+Main.c:		Radio_Reg_Write(2, &(BK1086_FM_initialization_reg[2*2]),2);
+Radio_api.c (s3c2440\src):void Radio_Reg_Write(UINT8 reg,UINT8 *pBuf,UINT8 len);
+Radio_api.c (s3c2440\src):	Radio_Reg_Write(REG2_POWER_CFG,&(TmpBuff[0]),2);
+Radio_api.c (s3c2440\src): 		Radio_Reg_Write(REG2_POWER_CFG,&(TmpBuff[0]),2);
+Radio_api.c (s3c2440\src): 		Radio_Reg_Write(REG2_POWER_CFG,&(TmpBuff[0]),2);
+Radio_api.c (s3c2440\src):	Radio_Reg_Write(REG2_POWER_CFG,&(TmpBuff[0]),2);
+Radio_api.c (s3c2440\src):	Radio_Reg_Write(REG3_CHANNEL,&(TmpBuff[0]),2); //write reg2,with 4 bytes
+Radio_api.c (s3c2440\src):	Radio_Reg_Write(REG3_CHANNEL,&(TmpBuff[0]),2); //write reg2,3,with 4 bytes
+Radio_api.c (s3c2440\src):	Radio_Reg_Write(REG3_CHANNEL,&(TmpBuff[0]),2); 
+Radio_api.c (s3c2440\src):	Radio_Reg_Write(REG3_CHANNEL,&(TmpBuff[0]),2);
+Radio_api.c (s3c2440\src):		Radio_Reg_Write(i,&(BK1086_FM_initialization_reg[i*2]),2);
+Radio_api.c (s3c2440\src):void Radio_Reg_Write(UINT8 reg,UINT8 *pBuf,UINT8 len)
+Radio_api.c (s3c2440\src):	Radio_Reg_Write(REG5_SYS_CONF2,&(TmpBuff[0]),2);
+TIMER_TEST.htm (output):<LI>Call Chain = Main &rArr; BK1086_SetFreq &rArr; Radio_Reg_Write &rArr; BEKEN_I2C_sendbyte &rArr; I2C_SCL_L &rArr; ClearGPIO &rArr; Set_GPIO_To_Output
+TIMER_TEST.htm (output):<P><STRONG><a name="[6b]"></a>Radio_Reg_Write</STRONG> (ARM, 104 bytes, Stack size 24 bytes, radio_api.o(.text))
+TIMER_TEST.htm (output):<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = Radio_Reg_Write &rArr; BEKEN_I2C_sendbyte &rArr; I2C_SCL_L &rArr; ClearGPIO &rArr; Set_GPIO_To_Output
+TIMER_TEST.htm (output):<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Radio_Reg_Write
+TIMER_TEST.htm (output):<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Radio_Reg_Write
+TIMER_TEST.htm (output):<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Radio_Reg_Write
+TIMER_TEST.htm (output):<LI>Call Chain = BK1086_SetFreq &rArr; Radio_Reg_Write &rArr; BEKEN_I2C_sendbyte &rArr; I2C_SCL_L &rArr; ClearGPIO &rArr; Set_GPIO_To_Output
+TIMER_TEST.htm (output):<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Radio_Reg_Write
+TIMER_TEST.htm (output):<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = Tuner_Init &rArr; Radio_Reg_Write &rArr; BEKEN_I2C_sendbyte &rArr; I2C_SCL_L &rArr; ClearGPIO &rArr; Set_GPIO_To_Output
+TIMER_TEST.htm (output):<BR>[Calls]<UL><LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Radio_Reg_Write
+TIMER_TEST.htm (output):<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Radio_Reg_Write
+TIMER_TEST.htm (output):<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Radio_Reg_Write
+TIMER_TEST.htm (output):<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Radio_Reg_Write
+TIMER_TEST.htm (output):<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Radio_Reg_Write
+TIMER_TEST.htm (output):<LI><a href="#[6b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Radio_Reg_Write
+TIMER_TEST.htm (output):<LI>Call Chain = [Anonymous Symbol] &rArr; Main &rArr; BK1086_SetFreq &rArr; Radio_Reg_Write &rArr; BEKEN_I2C_sendbyte &rArr; I2C_SCL_L &rArr; ClearGPIO &rArr; Set_GPIO_To_Output

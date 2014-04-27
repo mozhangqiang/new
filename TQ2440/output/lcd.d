@@ -1,0 +1,17 @@
+.\output\lcd.o: S3C2440\src\lcd.c
+.\output\lcd.o: .\S3C2440\inc\config.h
+.\output\lcd.o: .\S3C2440\inc\2440slib.h
+.\output\lcd.o: .\S3C2440\inc\def.h
+.\output\lcd.o: .\S3C2440\inc\2440addr.h
+.\output\lcd.o: .\S3C2440\inc\option.h
+.\output\lcd.o: .\S3C2440\inc\2440lib.h
+.\output\lcd.o: d:\Keil\ARM\RV31\INC\stdio.h
+.\output\lcd.o: d:\Keil\ARM\RV31\INC\ctype.h
+.\output\lcd.o: d:\Keil\ARM\RV31\INC\stdlib.h
+.\output\lcd.o: d:\Keil\ARM\RV31\INC\stdarg.h
+.\output\lcd.o: d:\Keil\ARM\RV31\INC\string.h
+.\output\lcd.o: .\S3C2440\inc\mmu.h
+.\output\lcd.o: .\S3C2440\inc\timer.h
+.\output\lcd.o: .\S3C2440\inc\mmu.h
+.\output\lcd.o: .\S3C2440\inc\lcd.h
+.\output\lcd.o: .\S3C2440\inc\font_def.h
